@@ -4,7 +4,10 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="">
-      <ProfileCard />
+      <div className="mb-12">
+        <ProfileCard />
+      </div>
+
       <h1 className="text-center text-2xl">
         Your Content in the Cente
         これはダミーのタイトルです。ああああああああああああああああああああああああああああああああああああああ
